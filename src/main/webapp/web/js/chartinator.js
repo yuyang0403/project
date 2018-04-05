@@ -467,7 +467,7 @@
         // Get Google Sheet data - CSV format
         o.getGoogleSheet = function ( key, callBack ) {
 
-            $.ajax({
+           /* $.ajax({
                 type: 'GET',
                 url: 'https://spreadsheets.google.com/spreadsheet/pub?key=' + key + '&output=csv',
                 dataType: 'text'
@@ -482,7 +482,7 @@
                     // Google Sheet failed
                     console.log('Google Sheet failed');
                 })
-            ;
+            ;*/
         };
 
         // Set the chart - get Google Chart
