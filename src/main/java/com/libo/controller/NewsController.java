@@ -25,6 +25,9 @@ public class NewsController {
 		m.addAttribute("list", maps);
 		return "/index.jsp";
 	}
+
+
+
 	@RequestMapping("save")
 	public String save(News news){
 		boolean flag=newsService.saveOrUpdate(news);
